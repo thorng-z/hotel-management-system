@@ -4,11 +4,11 @@
     "slug": "hotel-management-system",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icos/icon.png",
+    "icon": "./assets/icons/home.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/icons/splash-icon.png",
-      "resizeMode": "contain",
+      "resizeMode": "stretch",
       "backgroundColor": "#ffffff"
     },
     "ios": {
@@ -16,11 +16,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/icons/android-icon-foreground.png",
-        "backgroundImage": "./assets/icons/android-icon-background.png",
-        "monochromeImage": "./assets/icons/android-icon-monochrome.png"
-      }
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/icons/android-icon-foreground.png"
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/icons/favicon.png"
